@@ -5,10 +5,12 @@ import AboutView from "@/views/AboutView.vue";
 let routes = [
   {
     path: "/",
+    name: "Home",
     component: HomeView,
   },
   {
     path: "/about",
+    name: "About",
     component: AboutView,
   },
 ];
